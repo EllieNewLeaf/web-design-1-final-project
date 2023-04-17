@@ -28,8 +28,8 @@ If you would like to swap out images and content to showcase your work (which I 
 
 
 ## Requirements:
-- Create a separate folder for your CSS file
-- Use a Google font of your choice for the webpage. If you are not interested in sourcing one or adding a personal touch, you can use 'Open Sans' - bold and regular.
+- Create a separate folder for your CSS file (DONE X)
+- Use a Google font of your choice for the webpage. If you are not interested in sourcing one or adding a personal touch, you can use 'Open Sans' - bold and regular.(DONE X)
 - The maximum width of the container is 1280px. This would be applied to each section (preferably using a reusable class like 'wrapper').
 - Color values used in the layout: #0E1215, #FAFAFA #000 and white
 - You can choose font sizes (remember to set as rem)

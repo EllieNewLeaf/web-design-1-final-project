@@ -1,0 +1,305 @@
+html {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  color: #000;
+  line-height: 1.4;
+  font-size: 100%;
+  background-color: white;
+}
+
+*,*::before, *::after {
+  box-sizing:inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.warpper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-style: normal;
+}
+
+/*Navigation Section Begins Here*/ 
+header {
+  background-color: #000;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+}
+
+.nav {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.nav1 ul{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1em;
+}
+
+.nav1 li:first-child {
+  margin-right: auto;
+}
+
+.nav1 li:last-child {
+  margin-right: 20px;
+}
+
+.nav1 li {
+  list-style: none;
+}
+
+.nav1 li a:link {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+}
+
+.nav1 li a:hover {
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+}
+
+.nav1 li a:visited {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+}
+
+.nav1 li a:focus {
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+}
+
+span {
+  font-size: 1.8em;
+  color: white;
+}
+/*Navigation Section Ends Here*/ 
+
+
+/*Image header Starts Here*/
+header img {
+  width: 100%;
+}
+/*Image header Ends Here*/
+
+
+/*Biography Section Starts Here*/
+section.bio {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1em;
+}
+
+section.bio h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+section.bio h2 {
+  padding-top: 0;
+}
+
+img.person {
+  width: 40%;
+}
+/*Biography Section Ends Here*/
+
+
+/*MY SERVICES Section Starts Here*/
+#services {
+  background-color: #fafafa;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.cards {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: white;
+  padding: 0.5em 1em 0.5em 1em;
+  width: 400px;
+  height: 400px;
+}
+
+#services h2 {
+  text-align: center;
+}
+
+p.learn-more {
+  background-color: #000;
+  padding: 0.5em 1em 0.5em 1em;
+  width: 8em;
+  color: white;
+  border-radius: 5px;
+}
+
+p.money {
+  padding-bottom: 2em;
+}
+/*MY SERVICES Section Ends Here*/
+
+
+/*MY WORK Section Starts Here*/
+#my-work h2 {
+  text-align: center;
+}
+
+#my-work p {
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.projects{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, auto);
+  width: 1280px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.projects img:nth-child(1){
+  grid-row: 1;
+  grid-column: 1/ span 4;
+}
+
+.projects img:nth-child(2){
+  grid-row: 1;
+  grid-column: 4/ span 7;
+}
+
+.projects img:nth-child(3){
+  grid-row: 2;
+  grid-column: 1/3;
+}
+
+.projects img:nth-child(4){
+  grid-row: 2;
+  grid-column: 3/5;
+}
+
+.projects img:nth-child(5){
+  grid-row: 2;
+  grid-column: 5/7;
+}
+
+/*MY WORK Section Ends Here*/
+
+
+
+
+/*Review Quotes Starts Here*/
+section.reviews {
+  background-color: #000;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+section.reviews h2 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+div.reviewsquotes {
+  border-radius: 1em;
+  padding: .5em 0;
+  display: flex;
+}
+
+div.quote1 {
+  text-align: center;
+  width: 50%;
+}
+
+div.quote2 {
+  text-align: center;
+  width: 50%;
+}
+
+blockquote {
+  font-style: italic;
+  color: white;
+}
+
+cite {
+  font-style: normal;
+  color: grey;
+}
+/*Review Quotes Ends Here*/
+
+
+/*Contact Section Starts Here*/
+section.contact {
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.icon img {
+  padding-top: 2em;
+  width: 50px;
+}
+
+.icon ul {  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  gap: 0.5em;
+}
+/*Contact Section Ends Here*/
+
+
+/*Footer Section Starts Here*/
+footer {
+  background-color: #0E1215;
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+/*Footer Section Ends Here*/
